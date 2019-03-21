@@ -20,6 +20,6 @@
 [tips8-用express做一个简单的接口](https://github.com/KamyoChae/node-demo/blob/master/_pages/tips8-%E7%94%A8express%E5%81%9A%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E6%8E%A5%E5%8F%A3.md)
 
 
-[tips9-实现express读取cookie进行重定向、写入cookie进行自动登录](https://github.com/KamyoChae/node-demo/blob/master/_pages/tips9-%E5%AE%9E%E7%8E%B0express%E8%AF%BB%E5%8F%96cookie%E8%BF%9B%E8%A1%8C%E9%87%8D%E5%AE%9A%E5%90%91.md)
+[tips9-实现express读取cookie进行重定向、写入cookie进行自动登录](https://github.com/KamyoChae/node-demo/blob/master/_pages/tips9-%E5%AE%9E%E7%8E%B0express%E8%AF%BB%E5%8F%96cookie%E8%BF%9B%E8%A1%8C%E9%87%8D%E5%AE%9A%E5%90%91%E3%80%81%E5%86%99%E5%85%A5cookie%E8%BF%9B%E8%A1%8C%E8%87%AA%E5%8A%A8%E7%99%BB.md)
 
 [tips10-使用multer实现文件上传](https://github.com/KamyoChae/node-demo/blob/master/_pages/tips10-%E4%BD%BF%E7%94%A8multer%E5%AE%9E%E7%8E%B0%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.md)
