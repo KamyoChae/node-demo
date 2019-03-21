@@ -1,0 +1,27 @@
+{
+  "name": "kam-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KamyoChae/Kam-NodeJs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KamyoChae/Kam-NodeJs/issues"
+  },
+  "homepage": "https://github.com/KamyoChae/Kam-NodeJs#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {
+    "cookie-parser": "^1.4.3",
+    "multer": "^1.4.1"
+  }
+}

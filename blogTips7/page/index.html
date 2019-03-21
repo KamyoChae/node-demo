@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    index
+    <script>
+        window.onload = function () {
+            console.log(555)
+            var xhr = null;
+            if(window.XMLHttpRequest){
+                xhr = new XMLHttpRequest();
+            }else{
+                xhr = new ActiveXObject('Microsoft.XMLHttp');
+            }
+
+            xhr.open('GET', '/getData', true);
+            xhr.send(null);
+            xhr.onreadystatechange = function(){
+                console.log("onreadystatechange")
+                if(xhr.readyState == 4){
+                    console.log("readystate == 4")
+                    if(xhr.status == 200){
+
+                        console.log(xhr.responseText)
+                        console.log('响应成功')
+                    }
+                }
+            }
+        }
+
+    </script>
+</body>
+</html>

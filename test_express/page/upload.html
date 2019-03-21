@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <input id="file" type="file">
+    <input type="button" onclick="upload()" value="send">
+
+    <img id="pic" src="#">
+<script>
+    function upload() {
+        console.log(22)
+        var file = document.getElementById("file").files[0]
+
+        var form = new FormData()
+        form.append("file", file)
+        console.log(file)
+
+        var xhr = new XMLHttpRequest()
+        xhr.open("post", "/upload", true)
+        xhr.onload = function () {
+            alert("上传成功")
+        }
+        xhr.send(form)
+        xhr.onreadystatechange=()=>{
+            if (xhr.readyState == 4 && xhr.status == 200){}
+            console.log(xhr.responseText)
+
+            document.getElementById("pic").src = "/getPath?path=" + xhr.responseText
+
+        }
+
+    }
+
+</script>
+</body>
+</html>
