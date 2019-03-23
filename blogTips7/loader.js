@@ -1,3 +1,4 @@
+// 使用loader目的是不用手动一个个引入文件
 
 var fs = require("fs")
 
