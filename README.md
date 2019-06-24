@@ -1,4 +1,4 @@
-# node-demo 原仓库： Kam-NodeJs
+# node-demo 原仓库： Kam-NodeJs（已经被github官方封了）
 对node.js 的理解 
  
 [tips1-初识后端nodeJs](https://github.com/KamyoChae/node-demo/blob/master/_pages/tips1-%E5%88%9D%E8%AF%86%E5%90%8E%E7%AB%AFnodeJs.md)
